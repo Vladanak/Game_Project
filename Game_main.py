@@ -16,8 +16,7 @@ class GameProcess:
         self.sprite = self.jump = self.counter = 0
         self.birdY = 350
         self.jumpSpeed = 10
-        self.gravity = 5
-        self.NumberOfDeath = 5
+        self.NumberOfDeath = self.gravity = 5
         self.NoMore = [0, 0]
         self.IsOver = self.IsMenu = False
         self.IsMore = [False, False]
